@@ -12,9 +12,13 @@ Fullständig kod för VibraSeat
 const int analogInPin = A0;
 
 // value read from the Velostat
+
 int sensorValue = 0;
+
 unsigned long timer = 0;
+
 unsigned long setTime = 3000;
+
 boolean sitTooLong = false;
 
 int vibrator1 = 2;
